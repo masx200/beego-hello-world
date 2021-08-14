@@ -25,7 +25,7 @@ Resources:
     Type: Aliyun::Serverless::CustomDomain
     Properties:
       DomainName: Auto
-      Protocol: HTTP,HTTPS
+      Protocol: HTTP
       RouteConfig:
         Routes:
           "/*":
