@@ -14,5 +14,5 @@ func main() {
 	routers.Init()
 	helloworld.Helloworld()
 	index.Index()
-	beego.Run()
+	beego.Run("0.0.0.0:9000")
 }
