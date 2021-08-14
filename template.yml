@@ -20,7 +20,7 @@ Resources:
           Type: HTTP
           Properties:
             AuthType: ANONYMOUS
-            Methods: ['GET', 'POST', 'PUT']
+            Methods: ['GET', 'POST', 'PUT','DELETE','HEAD','PATCH']
   Domain:
     Type: Aliyun::Serverless::CustomDomain
     Properties:
