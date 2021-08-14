@@ -10,3 +10,4 @@ hello
 .fun/build/artifacts/.fun/tmp/deploy/template.yml
 .fun/build/artifacts/template.yml
 .fun/tmp/deploy/template.yml
+*.gz
