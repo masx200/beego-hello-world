@@ -1,0 +1,6 @@
+vendor/
+hello.exe
+lastupdate.tmp
+*.exe~
+*.exe
+*.tmp
