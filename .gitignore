@@ -6,3 +6,7 @@ lastupdate.tmp
 *.tmp
 *.bak
 hello
+.fun/build/artifacts/meta.json
+.fun/build/artifacts/.fun/tmp/deploy/template.yml
+.fun/build/artifacts/template.yml
+.fun/tmp/deploy/template.yml
