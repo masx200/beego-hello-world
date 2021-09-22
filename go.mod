@@ -3,7 +3,7 @@ module hello
 go 1.16
 
 require (
-	github.com/beego/beego/v2 v2.0.1
+	github.com/beego/beego/v2 v2.0.2-beta.1
 	github.com/golang/protobuf v1.5.2 // indirect
 	github.com/mitchellh/mapstructure v1.4.1 // indirect
 	github.com/prometheus/common v0.30.0 // indirect
