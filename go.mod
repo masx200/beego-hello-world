@@ -1,4 +1,4 @@
-module hello
+module github.com/masx200/beego-hello-world
 
 go 1.16
 
