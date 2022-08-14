@@ -4,15 +4,15 @@ import (
 	beego "github.com/beego/beego/v2/server/web"
 
 	cors "github.com/beego/beego/v2/server/web/filter/cors"
-	helloworld "hello/helloworld"
-	index "hello/index"
-	list "hello/list"
-	routers "hello/routers"
+	helloworld "github.com/masx200/beego-hello-world/helloworld"
+	index "github.com/masx200/beego-hello-world/index"
+	list "github.com/masx200/beego-hello-world/list"
+	routers "github.com/masx200/beego-hello-world/routers"
 )
 
 func addcors() {
 	beego.InsertFilter("*", beego.BeforeRouter, cors.Allow(&cors.Options{
-		AllowAllOrigins :true,
+		AllowAllOrigins:  true,
 		AllowOrigins:     []string{"*"},
 		AllowMethods:     []string{"GET", "POST", "PUT", "PATCH"},
 		AllowHeaders:     []string{"Origin"},
